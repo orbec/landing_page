@@ -3,40 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>CSS Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-        <div>This website is awesome</div>
-        <div>This website has some subtext that goes here under the main title. it's a smaller fornt and the color is lower contrast.</div>
-        <div class="button"><button>Sign Up</button></div>
-        <div><img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png"></div>
+        <div class="navigation">
+            <div class="h2-header">Header Logo</div>
+                <ul>
+                    <li class="h3-header">header link one</li>
+                    <li class="h3-header">header link two</li>
+                    <li class="h3-header">header link three</li>
+                </ul>
+            
+        </div>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="h1-header">This website is awesome</div>
+                <div class="h3-header">This website has some subtext that goes here under the main title. it's a smaller fornt and the color is lower contrast.</div>
+                <button>Sign Up</button>
+            </div>
+            <div class="img">This is a placeholder for an image</div>
+        </div>
+        
+        
     </div>
     <div class="body">
-        <div>Some random information</div>
-        <div>image</div>
-        <div>this is some subtext under an illustration or image</div>
-        <div>image</div>
-        <div>this is some subtext under an illustration or image</div>
-        <div>image</div>
-        <div>this is some subtext under an illustration or image</div>
+        <h1>Some random information</h1>
+        <div class="img-body">image</div>
+        <div class="h3-body">this is some subtext under an illustration or image</div>
+        <div class="img-body">image</div>
+        <div class="h3-body">this is some subtext under an illustration or image</div>
+        <div class="img-body">image</div>
+        <div class="h3-body">this is some subtext under an illustration or image</div>
 
-        <div>
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? all I know is that looks nice.
+        <div class="quote">
+            <div class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? all I know is that looks nice.
+            </div>
+            <div class="h3-quote">-Thor, God of Thunder</div>
         </div>
-        <div>-Thor, God of Thunder</div>
-        <div>Call to action! it's time!</div>
-        <div>Sign up  for our product by clicking that button right over there!</div>
-        <div class="button"><button>Sign Up</button></div>
+        
+        <div class="call-action">
+            <div class="h2-header">Call to action! it's time!</div>
+            <div class="h3-header">Sign up  for our product by clicking that button right over there!</div>
+            <button>Sign Up</button>
+        </div>
+        
     </div>
     <div class="footer">
-        <div>Copyright The Odin Project 2021</div>
+        <div class="h3-header">Copyright The Odin Project 2021</div>
     </div>
 </body>
 </html>

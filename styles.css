@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-items: stretch;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+
+
+.h1-header
+{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.h2-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h3-header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+li {
+    flex: 0 1 auto;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    align-items: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 6%;
+}
+
+.header-content {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    flex: 0 1 50%;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.body h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.h3-body {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.img-body{
+    width: 100px;
+    height: 100px;
+    border: solid 2px #3882F6;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.h3-quote {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+button,
+.call-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    
+}
+
+.header button {
+    border-radius:6px;
+    border: solid 0px white;
+    max-width: 30%;
+}
+
+.call-action button {
+    border-radius:6px;
+    border: solid 1px white;
+}
